@@ -1,0 +1,13 @@
+package trainor.protocol.v1;
+
+message User {
+    optional int32 userId = 1;
+    required string firstName = 2;
+    required string lastName = 3;
+    required string email = 4;
+}
+
+message Customer {
+    optional int32 customerId = 1;
+    required string name = 2;
+}
